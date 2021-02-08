@@ -228,19 +228,39 @@ p {
     border-width: 5px;
 }
 
+.bright-green {
+    background-color: #29A844;
+    color: #fff;
+}
+
+.blue-green {
+    background-color: #29A899;
+    color: #fff;
+}
+
 .blue {
-    border-color: rgb(83, 144, 217);
-    color: #5390d9;
+    background-color: #2962A8;
+    color: #fff;
+}
+
+.mustard {
+    background-color: #A89929;
+    color: #fff;
+}
+
+.ugly-green {
+    background-color: #62A829;
+    color: #fff;
 }
 
 .purple {
-    border-color: rgb(94, 96, 206);
-    color: #5e60ce;
+    background-color: #4429A8;
+    color: #fff;
 }
 
 .pink {
-    border-color: rgb(255, 71, 126);
-    color: #ff477e;
+    background-color: #9929A8;
+    color: #fff;
 }
 
 .button {
