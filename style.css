@@ -5,7 +5,7 @@
     --very-light-green: #ebfbfa;
 }
 
-html,body {
+html,body, main{
     margin: 0px;
     padding: 0px;
     width:100%;
@@ -107,7 +107,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.2em;
+    font-size: 6vw;
     color: var(--dark-green);
 }
 
@@ -167,20 +167,39 @@ p {
     background-color: var(--light-green);
 }
 
-.forth-section .column {
+.square-box {
     border-radius: 20px;
     margin: 2%;
     float: left;
     width: 46%;
     padding: 4%;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 1000px) {
+    .square-box h3{
+        height: 44px;
+    }
+    .content {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .about img {
+        width: 100%;
+        position: relative;
+    }
 }
 
 .contact, .about{
     background-color: var(--light-green);
-}
-
-.contact h2, .about h2 {
-    font-size: 3em;
 }
 
 .contact p {
@@ -195,12 +214,16 @@ p {
 }
 
 .about img {
-    width: 100%;
+    width: 30vw;
+    float: left;
+    margin-right: 2.2vw;
+    margin-top: 2.2vw;
     max-width: 310px;
+    min-width: 150px;
 }
 
-.about .center-space {
-    width: 5%;
+.inner-content {
+    margin: 3%;
 }
 
 .about .content-align-right {
@@ -215,51 +238,46 @@ p {
 * {
     box-sizing: border-box;
 }
-.column {
-  border-radius: 20px;
-  margin: 2%;
-  float: left;
-  width: 29%;
-  padding: 4%;
-}
 
-.border {
-    border-style: solid;
-    border-width: 5px;
+.bullet-point {
+    display:list-item;
+    list-style-type:disc; 
+    list-style-position:inside;
+    height: 40px;
 }
 
 .bright-green {
-    background-color: #29A844;
+    background-color: rgb(41, 168, 68, 0.7);
     color: #fff;
 }
 
 .blue-green {
-    background-color: #29A899;
+    background-color: rgb(41, 168, 153, 0.7);
     color: #fff;
 }
 
 .blue {
-    background-color: #2962A8;
+    background-color: rgb(41, 98, 168 , 0.7);
     color: #fff;
 }
 
 .mustard {
-    background-color: #A89929;
+    background-color: rgb(168, 153, 41 , 0.7);
     color: #fff;
 }
 
 .ugly-green {
-    background-color: #62A829;
+    background-color: rgb(98, 168, 41 , 0.7);
     color: #fff;
 }
 
 .purple {
-    background-color: #4429A8;
+    background-color: rgb(68, 41, 168 , 0.7);
     color: #fff;
 }
 
 .pink {
-    background-color: #9929A8;
+    background-color: rgb(153, 41, 168 , 0.7);
     color: #fff;
 }
 
@@ -277,6 +295,7 @@ p {
     content: "";
     display: table;
     clear: both;
+    margin:auto;
   }
 
 .vertical-column:after {
@@ -408,17 +427,7 @@ button[type=submit]:hover {
 .padding-top {
     padding-top: 5%;
 }
-  
-.img-align-text {
-    display: flex;
-    align-items:center;
-}
 
-.about span {
-    margin: 2vw;
-    margin-top: 0;
-    min-width: 490px;
-}
 
 .spinner {
     margin: 0;
