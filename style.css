@@ -74,7 +74,13 @@ header .header-announcement-bar-wrapper {
     max-height: 50px;
 }
 
+.float-left {
+    float: left;
+}
 
+.float-right {
+    float: right;
+}
 
 .header-display-desktop {
     
@@ -269,7 +275,6 @@ p {
     display:list-item;
     list-style-type:disc; 
     list-style-position:inside;
-    height: 40px;
 }
 
 .bright-green {
@@ -334,21 +339,65 @@ p {
 
 footer {
     margin: 0;
-    color: white;
-    font-size: 1.8em;
+    padding-bottom: 50px;
     background-color: var(--dark-green);
+}
+
+footer .content {
+    position: relative;
+    top: -50px;
+}
+
+footer h4 {
+    margin: 0;
+    text-align: left;
+    color: #fff;
+}
+
+footer p {
+    display: inline-block;
+    font-size: 1em;
+    text-align: left;
+}
+
+footer a {
+    font-size: 1em;
+    color: #fff;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.footer-about {
+    width: 30%;
+    margin-right: 6%;
+}
+
+.footer-menu{
+    width: 50%;
+}
+
+.footer-menu h4{
+    margin-bottom: 4%;
 }
 
 
 .fa {
-    position: relative;
-    top: -160%;
+    float: left;
     padding: 20px;
-    font-size: 30px;
     width: 80px;
+    font-size: large;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 10px;
     border-radius: 20px;
   }
 
