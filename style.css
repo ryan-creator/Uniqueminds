@@ -186,15 +186,12 @@ p {
 .size-long {
     width: 96%;
     max-width:none;
+    display: flex;
+    align-items: center;
 }
 
-.size-long img{
-    display: inline-block;
-}
-
-.size-long p{
-    display: inline-block;
-    margin-bottom: 2vw;
+.size-long p {
+    margin-left: 10%;
 }
 
 
