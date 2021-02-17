@@ -5,7 +5,7 @@
     --very-light-green: #ebfbfa;
 }
 
-html,body{
+html,body {
     margin: 0px;
     padding: 0px;
     width:100%;
@@ -96,7 +96,8 @@ header .header-announcement-bar-wrapper {
 }
 
 .banner {
-    
+    padding: 0;
+    margin: 0;
     font-size: 1.2em;
     color: var(--light-green);
     background-color: var(--dark-green);
@@ -115,10 +116,6 @@ h1 {
 h2 {
     font-size: 4vw;
     color: var(--dark-green);
-}
-
-p {
-    color: white;
 }
 
 .main-section-background {
@@ -140,7 +137,6 @@ p {
 }
 
 .main-section img {
-
     width: 100%;
     height: 100%;
     object-position: 0 -50px;
@@ -150,6 +146,7 @@ p {
     width: 75%;
     margin: auto;
     text-align: center;
+    background-color: transparent;
 }
 
 .content img {
@@ -176,22 +173,28 @@ p {
 .box {
     border-radius: 20px;
     margin: 2%;
-    float: left;
+    display: inline-block;
     padding: 4%;
-    max-width: 450px;
+    vertical-align: top;
 }
 
 .size-small {
-    width: 29%;
+    width: 26%;
+    max-width: 450px;
 }
 
 .size-medium {
     width: 46%;
+    max-width: 600px;
 }
 
 .size-long {
     width: 96%;
-    max-width:none;
+    max-width:1800px;
+    font-size: 1.5em;
+}
+
+.inner-box {
     display: flex;
     align-items: center;
 }
@@ -267,6 +270,14 @@ p {
     height: 18vw;
 }
 
+.fill {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: var(--dark-green);
+    top: -20px
+}
+
 * {
     box-sizing: border-box;
 }
@@ -279,37 +290,30 @@ p {
 
 .bright-green {
     background-color: rgb(41, 168, 68, 0.7);
-    color: #fff;
 }
 
 .blue-green {
     background-color: rgb(41, 168, 153, 0.7);
-    color: #fff;
 }
 
 .blue {
     background-color: rgb(41, 98, 168 , 0.7);
-    color: #fff;
 }
 
 .mustard {
     background-color: rgb(168, 153, 41 , 0.7);
-    color: #fff;
 }
 
 .ugly-green {
     background-color: rgb(98, 168, 41 , 0.7);
-    color: #fff;
 }
 
 .purple {
     background-color: rgb(68, 41, 168 , 0.7);
-    color: #fff;
 }
 
 .pink {
     background-color: rgb(153, 41, 168 , 0.7);
-    color: #fff;
 }
 
 .button {
@@ -358,6 +362,7 @@ footer p {
     display: inline-block;
     font-size: 1em;
     text-align: left;
+    color: #fff;
 }
 
 footer a {
@@ -391,13 +396,12 @@ footer a {
 
 
 .fa {
-    float: left;
     padding: 20px;
     width: 80px;
     font-size: large;
     text-align: center;
     text-decoration: none;
-    margin: 10px;
+    margin: 30px 5px;
     border-radius: 20px;
   }
 
