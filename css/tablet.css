@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+
+    footer {
+        padding-bottom: 50px;
+    }
+
+    .fa {
+        padding: 10px;
+        width: 60px;
+        margin: 15px 0px 15px 15px;
+        border-radius: 10px;
+    }
+
+    .footer-about {
+        display: none;
+    }
+
+    .footer-menu {
+        margin: 2%;
+        width: 100%;
+    }
+
+    .footer-menu h4{
+        margin-bottom: 0;
+    }
+}

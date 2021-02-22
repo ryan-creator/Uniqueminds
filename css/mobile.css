@@ -78,4 +78,41 @@
     .about span {
         text-align: justify;
     }
+
+    .footer-about, .footer-menu {
+        display: none;
+    }
+
+    .fa {
+        display: inline;
+    }
+
+    .footer-seperate-content {
+        display: block;
+    }
+
+    .footer-links {
+        position: relative;
+        top: 5px;
+    }
+
+    footer .content {
+        position: static;
+        text-align: start;
+        padding-bottom: 2px;
+        margin: 0;
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 2%;
+        padding: 0;
+    }
+
+    .footer-text-left, .footer-text-right {
+        float:none;
+        text-align: center;
+        display: block;
+        line-height: 10px;
+    }
 }

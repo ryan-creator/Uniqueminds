@@ -12,4 +12,15 @@
     .about span {
         text-align: justify;
     }
+
+    .box h3{
+        height: 44px;
+    }
+
+    .content {
+        width: 98%;
+    }
+    .center-space {
+        width: 2%;
+    }
 }
