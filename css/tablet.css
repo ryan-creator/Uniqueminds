@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
 
     h1 {
-        font-size: var(--h2);
+        /* font-size: var(--h2); */
     }
 
     .about img {

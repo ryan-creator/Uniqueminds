@@ -1,15 +1,15 @@
 @media screen and (max-width: 425px) {
 
     h3 {
-        font-size: var(--p-main);
+        /* font-size: var(--p-main); */
     }
 
     p {
-        font-size: var(--p-third);
+        /* font-size: var(--p-third); */
     }
 
     .about a {
-        font-size: small;
+        /* font-size: small; */
     }
 
     h2 {
@@ -142,7 +142,7 @@
         line-height: 10px;
     }
 
-    .c-btn {
+    button[type=button] {
         float: none;
         position: static;
     }
