@@ -3,12 +3,13 @@
     --dark-green-hover: #29a899;
     --light-green: #d0fbf6;
     --very-light-green: #ebfbfa;
-    --h1: 500%;
-    --h2: 450%;
-    --h3: 350%;
-    --p-main: 200%;
-    --p-secondary: 100%;
-    --p-third: small;
+    --h1: 450%;
+    --h2: 400%;
+    --h3: 300%;
+    --p-main: 150%;
+    --p-secondary: 50%;
+    --p-third: 50%;
+    --a: 150%;
 }
 
 * {
@@ -39,7 +40,6 @@ h2 {
 }
 
 h3 {
-    color: var(--dark-green);
     text-align: center;
     font-size: var(--h3);
 }
@@ -50,6 +50,10 @@ p, a {
 
 .contact a {
     font-size: var(--p-secondary);
+}
+
+.contact h3 {
+    color: var(--dark-green);
 }
 
 label, input, textarea {
@@ -184,7 +188,6 @@ label, input, textarea {
 .contact-content-align-left {
     width: 47.5%;
     height: 379px;
-    min-width: 500px;
 }
 
 .contact-content-align-right {
@@ -465,6 +468,10 @@ button[type=submit] p{
     padding: 0;
     margin: 0;
     color: var(--light-green);
+}
+
+.hide {
+    display: none;
 }
 
 

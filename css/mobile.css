@@ -1,7 +1,37 @@
 @media screen and (max-width: 425px) {
 
+    h3 {
+        font-size: var(--p-main);
+    }
+
     p {
-        
+        font-size: var(--p-third);
+    }
+
+    .about a {
+        font-size: small;
+    }
+
+    h2 {
+        background-color: var(--dark-green);
+        color: var(--light-green);
+        padding: 20px 0;
+        margin-top: 70px;
+    }
+
+    .first-section h2 {
+        margin-top: 0;
+        position: relative;
+        top: -5px;
+    }
+
+    .content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about img {
+        padding: 0%;
     }
 
     .content-wrapper {
@@ -36,10 +66,6 @@
 
     .size-small p {
         margin-left: 10%;
-    }
-
-    h2 {
-        
     }
 
     svg, .fill, .banner {
@@ -126,6 +152,14 @@
     }
 
     .contact h2 {
-        margin-top: 0.83em;
+        margin-top: 70px;
+    }
+
+    .contact img {
+        width: 11vw;
+    }
+
+    .hide {
+        display: block;
     }
 }
