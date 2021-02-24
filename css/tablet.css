@@ -23,4 +23,28 @@
     .footer-menu h4{
         margin-bottom: 0;
     }
+
+    .seperate-content {
+        display: block;
+        margin: 8%;
+    }
+
+    .contact-content-align-left {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .contact-content-align-right {
+        width: 100%;
+    }
+    
+    .contact-center-space {
+        display: none;
+    }
+
+    .align-vertically {
+        transform: translateY(0);
+        
+    }
 }

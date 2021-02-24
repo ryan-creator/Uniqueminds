@@ -1,7 +1,7 @@
 @media screen and (max-width: 425px) {
 
     p {
-        font-size: medium;
+        
     }
 
     .content-wrapper {
@@ -39,7 +39,7 @@
     }
 
     h2 {
-        font-size: 1.6em;
+        
     }
 
     svg, .fill, .banner {
@@ -114,5 +114,18 @@
         text-align: center;
         display: block;
         line-height: 10px;
+    }
+
+    .c-btn {
+        float: none;
+        position: static;
+    }
+
+    button[type=submit] {
+        float: none;
+    }
+
+    .contact h2 {
+        margin-top: 0.83em;
     }
 }

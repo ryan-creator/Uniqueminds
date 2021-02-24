@@ -3,8 +3,17 @@
     --dark-green-hover: #29a899;
     --light-green: #d0fbf6;
     --very-light-green: #ebfbfa;
+    --h1: 500%;
+    --h2: 450%;
+    --h3: 350%;
+    --p-main: 200%;
+    --p-secondary: 100%;
+    --p-third: small;
 }
 
+* {
+    box-sizing: border-box;
+}
 html,body {
     margin: 0px;
     padding: 0px;
@@ -18,6 +27,35 @@ html {
     background-color: var(--light-green);
 }
 
+h1 {
+    color: var(--dark-green);
+    margin: 10vw;
+    font-size: var(--h1);
+}
+
+h2 {
+    color: var(--dark-green);
+    font-size: var(--h2);
+}
+
+h3 {
+    color: var(--dark-green);
+    text-align: center;
+    font-size: var(--h3);
+}
+
+p, a {
+    font-size: var(--p-main);
+}
+
+.contact a {
+    font-size: var(--p-secondary);
+}
+
+label, input, textarea {
+    font-size: var(--p-main);
+}
+
 .main-section {
     padding-top: 10vw;
 }
@@ -25,24 +63,12 @@ html {
 .banner {
     padding: 0;
     margin: 0;
-    font-size: 1.2em;
     color: var(--light-green);
     background-color: var(--dark-green);
 }
 
 .banner p {
     margin: 0;
-}
-
-.main-header {
-    color: var(--dark-green);
-    font-size: 4vw;
-    margin: 10vw;
-}
-
-h2 {
-    font-size: 4em;
-    color: var(--dark-green);
 }
 
 .main-section-background {
@@ -119,7 +145,6 @@ h2 {
 .size-long {
     width: 96%;
     max-width:1800px;
-    font-size: 1.5em;
     text-align: start;
 }
 
@@ -143,7 +168,54 @@ h2 {
 .contact p, .contact a{
     color: var(--dark-green);
     padding: 10px;
-    font-size: 1em;
+}
+
+
+
+.contact h2 {
+    margin-top: 0;
+}
+
+.contact img {
+    width: 8vw;
+    max-width: 200px;
+}
+
+.contact-content-align-left {
+    width: 47.5%;
+    height: 379px;
+    min-width: 500px;
+}
+
+.contact-content-align-right {
+    width: 47.5%;
+}
+
+.contact-center-space {
+    width: 5%;
+}
+
+.contact-text {
+    display: flex;
+    align-items: center;
+}
+
+.align-text-start {
+    text-align: start;
+}
+
+.align-text-end {
+    text-align: end;
+}
+
+.top-margin {
+    margin-top: 2vw;
+}
+
+.align-vertically {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .about p {
@@ -153,9 +225,10 @@ h2 {
 
 .about img {
     width: 70vw;
-    max-width: 310px;
+    max-width: 400px;
     min-width: 150px;
     display: flex;
+    margin-top: 30px;
     margin-right: 2vw;
     margin-bottom: 2vw;
     object-fit: contain;
@@ -187,10 +260,6 @@ h2 {
     height: 40px;
     background-color: var(--dark-green);
     top: -20px
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .bullet-point {
@@ -234,7 +303,6 @@ h2 {
     border-radius: 40px;
     color: #fff;
     text-align: center;
-    font-size: small;
 }
 
 .row:after {
@@ -249,7 +317,7 @@ h2 {
 
 footer {
     margin: 0;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     background-color: var(--dark-green);
 }
 
@@ -266,7 +334,6 @@ footer h4 {
 
 footer p {
     display: inline-block;
-    font-size: 1em;
     text-align: left;
     color: #fff;
 }
@@ -363,19 +430,6 @@ footer a {
     display: flex;
 }
 
-.center-space {
-    width: 20%;
-}
-    
-.content-align-left {
-    width: 30%;
-}
-
-.content-align-right {
-    width: 50%;
-    font-size: 20px;
-}
-
 label {
     float: left;
     padding-left: 10px;
@@ -400,8 +454,6 @@ button[type=submit] {
     cursor: pointer;
     border-radius: 20px;
     float: left;
-    font-size: small;
-    width: 110px;
 }
 
 button[type=submit]:hover * {
@@ -419,12 +471,12 @@ button[type=submit] p{
 .c-btn {
     background-color: var(--dark-green);
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     color: var(--light-green);
     margin-top: 40px;
     text-decoration: none;
-    font-size: small;
     float: left;
+    font-size: var(--p-main);
 }
 
 .c-btn:hover, button[type=submit]:hover  {
