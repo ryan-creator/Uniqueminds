@@ -124,6 +124,10 @@ label, input, textarea {
     background-color: var(--light-green);
 }
 
+.forth-section h3 {
+    height: 1.4em;
+}
+
 .hide {
     display: none;
 }
