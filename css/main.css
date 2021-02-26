@@ -49,7 +49,7 @@ p, a {
 }
 
 .contact a {
-    font-size: var(--p-secondary);
+    font-size: var(--p-third);
 }
 
 .contact h3 {
@@ -166,7 +166,7 @@ label, input, textarea {
 }
 
 .size-medium p {
-    height: 40px;
+    min-height: 40px;
 }
 
 .contact, .about{
@@ -178,7 +178,10 @@ label, input, textarea {
     padding: 10px;
 }
 
-
+.about h2 {
+    text-align: left; 
+    padding-left: 3%;
+}
 
 .contact h2 {
     margin-top: 0;

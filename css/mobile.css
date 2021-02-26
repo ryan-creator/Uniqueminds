@@ -156,10 +156,22 @@
     }
 
     .contact img {
-        width: 11vw;
+        width: 14vw;
     }
 
     .hide {
         display: block;
+    }
+
+    .about h2 {
+        text-align: center;
+    }
+
+    .align-text-start {
+        text-align: start;
+    }
+
+    .align-text-end {
+        text-align: end;
     }
 }
