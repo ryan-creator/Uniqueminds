@@ -31,25 +31,25 @@ html {
 h1 {
     color: var(--dark-green);
     margin: 10vw;
-    /* font-size: var(--h1); */
+    font-size: var(--h1);
 }
 
 h2 {
     color: var(--dark-green);
-    /* font-size: var(--h2); */
+    font-size: var(--h2);
 }
 
 h3 {
     text-align: center;
-    /* font-size: var(--h3); */
+    font-size: var(--h3);
 }
 
 p, a {
-    /* font-size: var(--p-main); */
+    font-size: var(--p-main);
 }
 
 .contact a {
-    /* font-size: var(--p-secondary); */
+    font-size: var(--p-secondary);
 }
 
 .contact h3 {
@@ -57,7 +57,7 @@ p, a {
 }
 
 label, input, textarea {
-    /* font-size: var(--p-main); */
+    font-size: var(--p-main);
 }
 
 .main-section {
