@@ -57,7 +57,7 @@ header img {
     .menu-btn {
         display: block;
         width: 26px;
-        cursor: pointer;
+        /* cursor: pointer; */
         position: absolute;
         right: 4vw;
         top: 4vw;
