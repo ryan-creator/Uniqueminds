@@ -9,7 +9,7 @@ const stopScrolling = document.getElementById('stop-scrolling');
 
 closeMenu.style.display = 'none';
 
-document.getElementById('open-menu').addEventListener('click', function() {
+openMenu.addEventListener('click', function() {
     overlay.classList.add('show-menu');
     openMenu.style.display = 'none';
     closeMenu.style.display = 'block';
