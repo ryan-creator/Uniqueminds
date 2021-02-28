@@ -5,6 +5,8 @@ const openMenu = document.getElementById('open-menu');
 const closeMenu = document.getElementById('close-menu');
 const stopScrolling = document.getElementById('stop-scrolling');
 
+
+
 closeMenu.style.display = 'none';
 
 document.getElementById('open-menu') .addEventListener('click', function() {
@@ -12,6 +14,7 @@ document.getElementById('open-menu') .addEventListener('click', function() {
     openMenu.style.display = 'none';
     closeMenu.style.display = 'block';
     stopScrolling.style.overflow = 'hidden';
+    console.log("clicked");
 });
 
 document.getElementById('close-menu').addEventListener('click', function(){
