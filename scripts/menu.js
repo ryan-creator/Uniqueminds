@@ -9,12 +9,11 @@ const stopScrolling = document.getElementById('stop-scrolling');
 
 closeMenu.style.display = 'none';
 
-document.getElementById('open-menu') .addEventListener('click', function() {
+document.getElementById('open-menu').addEventListener('click', function() {
     overlay.classList.add('show-menu');
     openMenu.style.display = 'none';
     closeMenu.style.display = 'block';
     stopScrolling.style.overflow = 'hidden';
-    console.log("clicked");
 });
 
 document.getElementById('close-menu').addEventListener('click', function(){
