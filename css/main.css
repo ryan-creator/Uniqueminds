@@ -58,6 +58,7 @@ p, a {
 
 label, input, textarea {
     font-size: var(--p-main);
+    font-family: SofiaProSoftLight;
 }
 
 .main-section {
