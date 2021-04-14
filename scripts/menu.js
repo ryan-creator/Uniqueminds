@@ -1,5 +1,3 @@
-//Let's Create the JavaScript Part. 
-
 const overlay = document.getElementById('overlay');
 const openMenu = document.getElementById('open-menu');
 const closeMenu = document.getElementById('close-menu');

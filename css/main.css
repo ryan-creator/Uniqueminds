@@ -7,7 +7,7 @@
     --h2: 400%;
     --h3: 300%;
     --p-main: 150%;
-    --p-secondary: 50%;
+    --p-secondary: 100%;
     --p-third: 50%;
     --a: 150%;
 }
@@ -49,7 +49,7 @@ p, a {
 }
 
 .contact a {
-    font-size: var(--p-third);
+    font-size: var(--p-secondary);
 }
 
 .contact h3 {
@@ -139,6 +139,7 @@ label, input, textarea {
     display: inline-block;
     padding: 4%;
     vertical-align: top;
+    transition: all 2s ease ;
 }
 
 .size-small {
